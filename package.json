@@ -1,0 +1,43 @@
+{
+	"name": "glivera-shopify-strarter-theme",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "glivera-team",
+	"license": "ISC",
+	"devDependencies": {
+		"babel-core": "^6.26.3",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-es2015": "^6.24.1",
+		"gulp": "^4.0.1",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-babel": "^7.0.1",
+		"gulp-changed": "^3.2.0",
+		"gulp-clean-css": "^4.0.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-csslint": "^1.0.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-uglify": "^3.0.2",
+		"gulp-uncss": "^1.0.6",
+		"jquery": "^3.4.1",
+		"node-sass": "^4.11.0",
+		"gulp-postcss": "^8.0.0",
+		"postcss-assets": "^5.0.0",
+		"postcss-reporter": "^6.0.1",
+		"postcss-scss": "^2.0.0",
+		"gulp-notify": "^3.2.0",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-inline-image": "^1.0.0",
+		"gulp-plumber": "^1.2.1"
+	},
+	"dependencies": {
+		"babel-polyfill": "^6.26.0"
+	},
+	"browserslist": [
+		"defaults"
+	]
+}

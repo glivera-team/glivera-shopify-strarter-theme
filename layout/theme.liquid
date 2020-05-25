@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ shop.locale }}">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width"/>
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="format-detection" content="telephone=no"/>
+  <meta name="theme-color" content="">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  <title>{{ shop.name }}</title>
+  <meta name="description" content="">
+
+  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+
+  {{ content_for_header }}
+</head>
+
+<body>
+  {% section 'header' %}
+  <div class="wrapper">
+    <div class="base">
+      {{ content_for_layout }}
+    </div>
+
+    {% section 'footer' %}
+  </div>
+
+  {{ 'libs.min.js'  | asset_url | script_tag }}
+  {{ 'theme.min.js'  | asset_url | script_tag }}
+</body>
+</html>
