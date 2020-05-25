@@ -1,7 +1,7 @@
 development:
-  theme_id:
-  password:
-  store:
+  theme_id: 184027085
+  password: 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
+  store: omgstores.myshopify.com
   bucket_size: 40
   refill_rate: 2
   concurrency: 2
